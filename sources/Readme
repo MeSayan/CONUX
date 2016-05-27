@@ -1,1 +1,6 @@
+The source code  is provided in this folder.
+The source code is provided so that you can make changes if you wish and compile the library according to your criteria.
 
+Note:
+When  compiling C code it is always best practise to adhere to latest C Standards.
+You can force gcc to compile code in accordance with c11 standard ,you can do this by sending '-std-c11' as flag
