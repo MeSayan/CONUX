@@ -1,0 +1,15 @@
+Installation Instructions:
+----------------------------------------------------------------------------------
+a) move 'colors.h' and 'conux.h' to /usr/conux
+b) move 'libconux.a' to /usr/lib/conux
+
+You will need superuser (sudo ) permissons to move this files.Create the folders
+as they will not exist by default.
+
+Once Installed you can use the library like any other standard library by giving the
+preprocessor directive
+
+#include <conux.h>
+
+
+For list of functions please refer to the wiki.
