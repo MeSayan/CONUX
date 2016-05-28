@@ -12,9 +12,9 @@
 #define GREY			7
 #define DEFAULT			9
 //Macro for Single Index Colors
-#define CI(x)       	(x)^(1<<24)
+#define CI(x)       	(x)|(1<<24)
 //Macro for RGB Colors
-#define RGB(x,y,z) 		(((z)^((y)<<8))^((x)<<16))^(2<<24)
+#define RGB(x,y,z) 		(((z)|((y)<<8))|((x)<<16))|(2<<24)
 //Macro For RGB Colors in Hexadecimal Format
 #define HEX(X)          hex_to_rgb(#X)
 //Macros for Text Formatting
