@@ -18,18 +18,18 @@
 //Macro For RGB Colors in Hexadecimal Format
 #define HEX(X)          hex_to_rgb(#X)
 //Macros for Text Formatting
-#define BOLD			"\e[1m"
-#define UNDERSCORE		"\e[4m"
-#define BLINK			"\e[5m"
-#define RESET			"\e[0m"
-#define FAINT       	"\e[2m"
-#define INVERSE     	"\e[7m"
-#define HIDDEN			"\e[8m" 
-#define BOLD_OFF		"\e[21m"
+#define BOLD			      "\e[1m"
+#define UNDERSCORE		  "\e[4m"
+#define BLINK			      "\e[5m"
+#define RESET			      "\e[0m"
+#define FAINT       	  "\e[2m"
+#define INVERSE     	  "\e[7m"
+#define HIDDEN			    "\e[8m" 
+#define BOLD_OFF		    "\e[21m"
 #define UNDERSCORE_OFF  "\e[24m"
 #define BLINK_OFF       "\e[25m"
-#define FAINT_OFF		"\e[22m"
-#define SHOW			"\e[28m"
+#define FAINT_OFF		    "\e[22m"
+#define SHOW			      "\e[28m"
 //Macros for Miscel
 //Functions
 void clrscr();
